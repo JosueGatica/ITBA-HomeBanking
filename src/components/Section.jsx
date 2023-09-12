@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import './styles/Section.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function Section() {
@@ -9,7 +8,7 @@ function Section() {
   const [contraseña,setContraseña] = useState('admin123');
 
   const comprobarDatos = () =>{
-    if (correo == 'admin@gmail.com' && contraseña == 'admin123'){
+    if (correo === 'admin@gmail.com' && contraseña === 'admin123'){
       alert('Corectos')
       console.log('si')
     } else
