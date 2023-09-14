@@ -4,7 +4,7 @@ import './styles/Footer.css'
 const Footer = () => {
   return (
     <footer>
-    <div class="footer-text flex content-center items-center gap-7 w-screen">
+    <div class="footer-text flex justify-center items-center gap-7 w-screen">
         <a href="">POLITICAS DE SEGURIDAD</a>
         <a href="">TERMINOS Y CONDICIONES</a>
         <a href="">CONTACTO</a>
