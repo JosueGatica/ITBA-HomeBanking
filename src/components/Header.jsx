@@ -1,13 +1,14 @@
 import React from 'react'
+import logo from './img/itbalogo-removebg-preview.png'
 import './styles/Header.css'
 
 const Header = () => {
   return (
-    <div class="nav flex content-between items-center">
+    <div class="nav flex justify-between items-center">
     <input type="checkbox" id="nav-check" />
     <div class="nav-header">
       <div class="nav-title">
-        <img src="./assets/img/itbalogo-removebg-preview.png" alt="Bank Logo" />
+        <img src={logo} alt="Bank Logo" />
       </div>
     </div>
     <div class="nav-btn">
