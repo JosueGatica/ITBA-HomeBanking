@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderLogin from "./HeaderLogin";
 import Section from "./Section";
-import './styles/Login.css'
+import '../styles/Login.css'
 
 function Login() {
     return (

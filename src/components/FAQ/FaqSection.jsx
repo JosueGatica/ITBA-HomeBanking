@@ -1,6 +1,6 @@
 import React from 'react';
 import FAQItem from './FAQItem';
-import '../components/styles/ayuda.css';
+import '../styles/ayuda.css';
 
 function FAQSection() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/styles/ayuda.css';
+import '../styles/ayuda.css';
 
 
 function FAQItem({ question, answer }) {

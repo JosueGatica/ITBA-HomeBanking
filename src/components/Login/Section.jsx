@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import './styles/Section.css'
+import React, { useState} from "react";
+import '../styles/Section.css'
+import { useNavigate } from "react-router-dom";
 
 
 function Section() {
@@ -7,14 +8,18 @@ function Section() {
   const [correo, setCorreo] = useState('admin@gmail.com');
   const [contraseña,setContraseña] = useState('admin123');
 
+  //Para redireccionar en el caso de que haya iniciado sesion
+  const navigate = useNavigate();
+
+
   const comprobarDatos = () =>{
     if (correo === 'admin@gmail.com' && contraseña === 'admin123'){
-      alert('Corectos')
-      console.log('si')
+      alert('Corectos');
+      //Navegar al home
+      navigate("/cuenta");
     } else
     {
       alert('Datos incorrectos')
-      console.log('no')
     }
   }
 
@@ -45,7 +50,7 @@ function Section() {
                   </form>
 
                   <div className="w-100 d-flex justify-content-center pt-5">
-                        <img className="centrar-imagen" src={require('./img/itbalogo-removebg-preview.png')} alt="Logo ITBA" />
+                        <img className="centrar-imagen" src={require('../img/itbalogo-removebg-preview.png')} alt="Logo ITBA" />
                     </div>
       
                 </div>

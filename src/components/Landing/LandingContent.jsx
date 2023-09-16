@@ -2,23 +2,23 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-import './styles/LandingContent.css'
+import '../styles/LandingContent.css'
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import img1 from './img/3d-casual-life-guy-shopping-online.png'
-import img2 from './img/experimental-3d-morphis-finance-grow-1.png'
-import img3 from './img/3d-flame-man-presenting-business-idea-on-laptop.png'
-import img4 from './img/3d-casual-life-mobile-banking-cashback.png'
-import img5 from './img/3d-casual-life-man-using-laptop-with-statistics-chart-on-background.png'
-import img6 from './img/3d-business-cash-and-coins.png'
-import img7 from './img/business-3d-bitcoin-mining-with-phone.png'
-import img8 from './img/casual-life-3d-side-view-of-white-calculator.png'
-import i1 from './img/icons8-gráfico-circular-94.png'
-import i2 from './img/icons8-account-94.png'
-import i3 from './img/icons8-card-94.png'
-import i4 from './img/icons8-fund-accounting-94.png'
-import i5 from './img/icons8-calculadora-94.png'
+import img1 from '../img/3d-casual-life-guy-shopping-online.png'
+import img2 from '../img/experimental-3d-morphis-finance-grow-1.png'
+import img3 from '../img/3d-flame-man-presenting-business-idea-on-laptop.png'
+import img4 from '../img/3d-casual-life-mobile-banking-cashback.png'
+import img5 from '../img/3d-casual-life-man-using-laptop-with-statistics-chart-on-background.png'
+import img6 from '../img/3d-business-cash-and-coins.png'
+import img7 from '../img/business-3d-bitcoin-mining-with-phone.png'
+import img8 from '../img/casual-life-3d-side-view-of-white-calculator.png'
+import i1 from '../img/icons8-gráfico-circular-94.png'
+import i2 from '../img/icons8-account-94.png'
+import i3 from '../img/icons8-card-94.png'
+import i4 from '../img/icons8-fund-accounting-94.png'
+import i5 from '../img/icons8-calculadora-94.png'
 
 const LandingContent = () => {
 

@@ -1,9 +1,9 @@
 import React from 'react'
-import logo from './img/itbalogo-removebg-preview.png'
-import './styles/Header.css'
-import { Link } from 'react-router-dom'
+import logo from '../img/itbalogo-removebg-preview.png'
+import '../styles/Header.css'
+import { Link } from 'react-router-dom';
 
-const Header = () => {
+const HeaderLanding = () => {
   return (
     <div class="nav flex justify-between items-center">
     <input type="checkbox" id="nav-check" />
@@ -21,14 +21,11 @@ const Header = () => {
     </div>
     
     <div class="nav-links">
-        <Link to="/">Inicio</Link>
-        <Link to="/cuenta">Cuenta</Link>
-        <Link to="/transferencia">Transferencias</Link>
-        <Link to="/faq">Ayuda</Link>
-        <Link to="/login">Cerrar Sesion</Link>
+      
+      <Link to="/login">Iniciar Sesión</Link>
     </div>
   </div>
   )
 }
 
-export default Header
+export default HeaderLanding

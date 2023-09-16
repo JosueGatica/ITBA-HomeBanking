@@ -1,5 +1,5 @@
 import React from "react";
-import './styles/HeaderLogin.css'
+import '../styles/HeaderLogin.css'
 
 function HeaderLogin() {
     return ( 

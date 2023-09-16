@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
+import Footer from '../Footer'
 import LandingContent from './LandingContent'
+import HeaderLanding from './HeaderLanding'
 
 const Landing = () => {
   return (
   <>
-      <Header/>
+      <HeaderLanding/>
       <LandingContent/>
       <Footer/>
   </>
