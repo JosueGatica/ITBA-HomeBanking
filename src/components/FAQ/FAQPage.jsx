@@ -7,6 +7,7 @@ import Header from '../Header';
 function FAQPage() {
   return (
     <div className="faq-page">
+     
       <Header/>
       <FAQSection />
       <FAQItem />

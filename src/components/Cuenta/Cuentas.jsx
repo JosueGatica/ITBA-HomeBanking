@@ -7,6 +7,7 @@ import Footer from "../Footer";
 function Cuentas() {
   return (
     <>
+  
       <Header />
       <main class="flex items-center">
         <div class="contenedor flex justify-center items-center gap-5 pt-5">
